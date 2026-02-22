@@ -16,4 +16,32 @@ p {
   color: Black;
   font-size: 18px;
   text-align: center;
+
 }
+
+
+body {
+  color: white;
+  text-align: center;
+  height: 100vh;
+}
+
+/* Texte en bas */
+.bottom-text {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #111; /* presque invisible */
+  font-size: 18px;
+  transition: 0.3s;
+  user-select: none;
+}
+
+/* Effet de survol */
+.bottom-text:hover {
+  color: white;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px white;
+}
+
