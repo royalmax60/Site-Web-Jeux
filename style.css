@@ -1,6 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   background-color: Black;
+  Background-image: linear-gradient(to right, black, #111, black);
 }
 
 h1 {
@@ -44,4 +45,7 @@ body {
   letter-spacing: 2px;
   text-shadow: 0 0 10px white;
 }
+
+
+
 
