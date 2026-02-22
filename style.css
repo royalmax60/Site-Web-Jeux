@@ -6,9 +6,12 @@ body {
 h1 {
   color: White;
   text-align: center;
+  font-size: 50px;
+  
 }
 
 p {
-  color: #333;
+  color: Black;
   font-size: 18px;
+  text-align: center;
 }
